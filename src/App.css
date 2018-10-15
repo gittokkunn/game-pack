@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.Game {
+  margin: 50px auto;
+  padding: 10px 10px;
+  width: 50%;
+  max-width: 350px;
+  min-width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NumberPlate {
+  width: 30%;
+  height: 90px;
+  background-color: skyblue;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 50px;
+  color: white;
+}
+  .NumberPlate.selected {
+    background-color: orangered;
+  }
+  .NumberPlate.selectable {
+    background-color: orange;
+  }
+  .NumberPlate.completed {
+    background-color: yellow;
+    pointer-events: none;
+  }
+
+.CompMessage {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tryAgainButton {
+  cursor: pointer;
+  font-weight: bold;
+}
+  .tryAgainButton:hover {
+    opacity: 0.8;
+  }
