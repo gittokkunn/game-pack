@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/game-pack/static/css/main.e360c2e6.chunk.css"
   },
   {
-    "revision": "276b844d6a8c32534e53795e66b88e9c",
+    "revision": "561909913fc58aa80549c92a2e931271",
     "url": "/game-pack/index.html"
   }
 ];
